@@ -3,15 +3,17 @@
     package="br.com.soulplus_introducao">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup=""
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SoulPLus_Vendas">
-        <activity android:name="br.com.soulplus_introducao.ResultActivity"></activity>
+        android:theme="@style/Theme.SoulPLus_Vendas"
+        android:fullBackupContent="@xml/backup_descriptor">
+        <activity android:name=".SendResultActivity" />
+        <activity android:name=".ResultActivity" />
         <activity
-            android:name="br.com.soulplus_introducao.DrawerActivity"
+            android:name=".DrawerActivity"
             android:label="@string/title_activity_drawer"
             android:theme="@style/Theme.SoulPLus_Vendas.NoActionBar">
             <intent-filter>
@@ -20,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.com.soulplus_introducao.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
