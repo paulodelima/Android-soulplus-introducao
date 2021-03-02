@@ -7,6 +7,8 @@ App criado com intuito de aprendizado sobre desenvolvimento Android através da 
 ## Referência
 
 Projeto criado com base no vídeo introdutório da Fábrica de Sinapse
+
 Vídeo ==> https://www.youtube.com/watch?v=Ghx79FLbsNA&t=6933s
+
 Github ==> https://github.com/fabricadesinapse
 
