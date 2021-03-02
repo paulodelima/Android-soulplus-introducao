@@ -2,9 +2,10 @@
 <resources>
     <string name="app_name">Soul PLus Introdução</string>
     <string name="result">Resultado</string>
-    <string name="type_your_name">Digite o seu nome...</string>
+    <string name="type_your_name">Digite o seu nome…</string>
     <string name="send">Enviar</string>
     <string name="hello_name">Olá, %1$s!</string>
     <string name="action_settings">Configurações</string>
     <string name="menu_gallery">Galeria</string>
+    <string name="send_to_result_screen">Enviar para tela de Resultados</string>
 </resources>
