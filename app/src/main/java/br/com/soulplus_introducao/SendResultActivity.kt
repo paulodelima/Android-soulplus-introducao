@@ -5,7 +5,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import androidx.annotation.StringRes
+import android.widget.TextView
 
 class SendResultActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,12 +17,22 @@ class SendResultActivity : AppCompatActivity() {
         val btCancel = findViewById<Button>(R.id.btCancel)
 
         btYes.setOnClickListener {
-            sendResult(R.string.yes)
+            val intent = Intent()
+
+            intent.putExtra("RESULT", getString(R.string.yes))
+
+            setResult(Activity.RESULT_OK, intent)
+
             finish()
         }
 
         btNo.setOnClickListener {
-            sendResult(R.string.no)
+            val intent = Intent()
+
+            intent.putExtra("RESULT", getString(R.string.no))
+
+            setResult(Activity.RESULT_OK, intent)
+
             finish()
         }
 
@@ -32,13 +42,5 @@ class SendResultActivity : AppCompatActivity() {
 
             finish()
         }
-    }
-
-    private fun sendResult(@StringRes stringResId: Int) {
-        val intent = Intent()
-
-        intent.putExtra("RESULT", getString(stringResId))
-
-        setResult(Activity.RESULT_OK, intent)
     }
 }
