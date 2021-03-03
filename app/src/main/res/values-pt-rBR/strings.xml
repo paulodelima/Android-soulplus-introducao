@@ -8,4 +8,10 @@
     <string name="action_settings">Configurações</string>
     <string name="menu_gallery">Galeria</string>
     <string name="send_to_result_screen">Enviar para tela de Resultados</string>
+    <string name="open_screen_to_get_result">Abrir tela para pegar resultado</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="cancel">Cancelar</string>
+    <string name="data_received">Dado recebido: %1$s</string>
+    <string name="activity_was_cancelled">Tela foi cancelada</string>
 </resources>
