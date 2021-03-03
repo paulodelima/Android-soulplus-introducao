@@ -16,10 +16,4 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow" translatable="false">Slideshow</string>
     <string name="send_to_result_screen">Send to Result Screen</string>
-    <string name="open_screen_to_get_result">Open screen to get Result</string>
-    <string name="no">No</string>
-    <string name="yes">Yes</string>
-    <string name="cancel">Cancel</string>
-    <string name="activity_was_cancelled">Activity was cancelled</string>
-    <string name="data_received">Data received: %1$s</string>
 </resources>
